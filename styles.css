@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: "Gotham SSm A", "Gotham SSm B";
+}
+a {
+  text-decoration: none;
+}
+.home {
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.home__headline {
+  font-size: 48px;
+  text-align: left;
+  margin-top: -75px;
+  width: calc(87.5% - 27.5px);
+  float: left;
+}
+
+.button {
+  float: left;
+  display: block;
+  margin-right: 20px;
+  text-transform: uppercase;
+	font-weight: 700;
+	padding: 10px 40px;
+	font-size: 12px;
+	display: inline-block;
+	border-radius: 0;
+	box-sizing: border-box;
+}
+.button__wrapper {
+  margin-left: 5px;
+  position: relative;
+}
+.button--white-outline {
+  color: #fff;
+  background: none;
+  border: 2px solid #fff;
+}
+
+.site-width {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.home__video-wrapper {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero {
+  background-position: center;
+	background-size: cover;
+	min-height: 400px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+}
+.hero__headline {
+  z-index: 1;
+  position: relative;
+  margin-bottom: 80px;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+}
+.hero__screen {
+  background-color: rgba(51, 51, 51, 0.5);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.side-nav__anchor-square {
+  height: 15px;
+  width: 15px;
+  border: 1px solid white;
+  margin-bottom: 15px;
+}
+.first {
+  background-color: #595CA3;
+  border: none;
+  height: 16px;
+  width: 16px;
+}
+
+.side-nav__anchor-squares {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  height: calc(100vh - 75px);
+  right: 100px;
+  bottom: 0;
+}
